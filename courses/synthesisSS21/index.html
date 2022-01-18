@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Program Synthesis SS 2021</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/skeleton.css">
+  <link rel="stylesheet" href="../../css/evas_style.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="https://www.mpi-sws.org/wp-content/themes/mpi-sws/assets/images/favicon/favicon-32x32.png?ver=1.5.0">
+
+</head>
+
+  <body>
+    <header class="container"> <!--class="container"-->
+      <h1 class="title">Seminar on Program Synthesis - SS 2021</h1>
+    </header>
+
+    <!--nav class="nav-container container">
+      <a class="navlink" href="index.html">Home</a>
+      <a class="navlink" href="papers_list.html">Papers List</a-->
+      <!--a class="navlink" href="schedule.html">Schedule</a-->
+      <!--a class="navlink" href="resources.html">Resources</a-->
+      <!--a class="navlink" href="policies.html">Policies</a-->
+    <!--/nav-->
+
+    <section class="container">
+      <h2></h2>
+      <table style="width:100%">
+        <tr>
+          <td class="header-col">Instructor</td><td><a href="http://www.mpi-sws.org/~eva"> Eva Darulova</a></td>
+        </tr>
+        <tr>
+          <td>TA</td><td><a href="https://people.mpi-sws.org/~rosaabbasi/">Rosa Abbasi</a></td>
+        </tr>
+        <tr>
+          <td>Language</td><td>The seminar will be in English.</td>
+        </tr>
+        <!--tr>
+          <td>Registration deadline</td><td>28 March</td>
+        </tr-->
+        <tr>
+          <td>Kickoff meeting</td><td>Thursday, 22 April, 16:00</td>
+        </tr>
+        <!--tr>
+          <td>Time</td><td>Tuesdays, 14:15 - 16:00</td>
+        </tr>
+        <tr>
+          <td>Place</td><td>SB building E1.5 room 029, videocast to KL building G 26 room 607</td>
+        </tr>
+        <tr>
+          <td>First meeting</td><td>10 April</td>
+        </tr>
+        <tr>
+          <td>Office hours</td><td>On demand, send an email to Eva</td>
+        </tr-->
+        <!--tr>
+          <td>TA</td><td></td>
+        </tr-->
+        <tr>
+          <td>Credits</td><td>4 CP</td>
+        </tr>
+        <!--tr>
+          <td>Moodle</td><td></td>
+        </tr-->
+        <tr>
+          <td class="header-col">Prerequisites</td><td>No formal requirements, but prior experience with
+            program analysis, verification or automated reasoning is helpful.</td>
+        </tr>
+        <tr>
+          <td class="header-col">Format</td>
+          <td>Each student will read 3-4 (related) papers and prepare a 20min
+            presentation. After paper presentations, we will have an in-class
+            discussion that every student is expected to participate in.
+            Attendance and active participation on all presentation days is
+            mandatory.<br>
+            In addition to the presentation, students are expected to write a
+            report (10-15 pages) on their assigned papers, summarizing them,
+            explaining their main ideas and their relation to each other.
+          </td>
+        </tr>
+        <tr>
+          <td class="header-col">Registration</td>
+          <td>
+            You can apply for the seminar by filling in this form <strong>by 7 April</strong>: <br>
+            <a href="https://owncloud.mpi-sws.org/index.php/apps/forms/MewkCSTze98D8ssy" target="_blank">registration form</a><br>
+            Places in the seminar are limited. We will assign the available
+            seminar places after the registration deadline and will then notify
+            you via email.</td>
+          </tr>
+        <tr>
+          <td class="header-col">Tentative Schedule</td>
+          <td>In the first half of the semester, you will have time to read papers,
+            prepare your presentation and a first draft of your report. In the second half of the
+            semester, we will have weekly meetings with presentations and discussions.
+           </td>
+        </tr>
+        <!--tr>
+          <td class="header-col">Course platform</td>
+          <td>We will use Moodle for course coordination and communication, thus all
+          participants, even those only auditing the class should register on
+          Moodle. The enrollment method will be announced at the first class.</td>
+        </tr-->
+      </table>
+    </section>
+    <section class="container">
+      <h2>Seminar Topic</h2>
+      <p>
+        The idea that we could tell a computer <b>what</b> we want and it would
+        automatically figure out <b>how</b> to achieve it has fascinated scientists
+        for a long time, but it has also been an elusive goal.
+
+        Via recent research papers in the area of program synthesis, this
+        seminar will look at the significant steps which have been made towards
+        this grand vision. We will discuss what is currently possible, for which
+        application domains program synthesis is successful, what the main
+        challenges are and what perhaps will never be feasible. The paper
+        selection will cover the major synthesis techniques to provide
+        an overview of the current landscape.
+      </p>
+      <p>
+        <b>Disclaimer</b>: The name 'synthesis' can mean many different things, in particular there
+        are two different areas whose goal is to generate programs. This
+        course considers the so-called <em>functional synthesis</em> which
+        aims to synthesize programs whose inputs are finite, e.g. a sorting algorithm.
+        On the other hand, the input of <em>reactive synthesis</em> generated programs
+        are infinite streams, e.g. in embedded controllers.
+        <a href="https://link.springer.com/article/10.1007/s10009-013-0287-9"
+        target="_blank">This introduction</a> nicely explains the differences and also provides
+        an introduction to program synthesis.
+
+        The approaches in these two domains are quite different, and in this
+        seminar we will focus on <em>functional synthesis</em>.
+      </p>
+
+    </section>
+
+    <section class="container imprint">
+    <a href="https://imprint.mpi-klsb.mpg.de/sws/eva_personal">Imprint</a>
+    <a href="https://data-protection.mpi-klsb.mpg.de/sws/eva_personal">Data Protection</a>
+  </section>
+  </body>
+
+
+</html>

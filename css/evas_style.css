@@ -1,0 +1,69 @@
+
+body {
+  color: #457485; /*#27586B;*/
+  font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #103E50;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+  letter-spacing: .15em;
+}
+
+a:hover {
+  color: #6D92A0;
+}
+a {
+  color: #103E50;
+}
+
+.married-name {
+  line-height: 5px;
+}
+
+.bio {
+  text-align: justify;
+  word-spacing: .2em;
+}
+
+.info {
+  text-align: center;
+  padding-top:50px;
+}
+
+.pubname {
+  color: #27586B;
+  font-weight: 500;
+}
+
+.confname {
+  font-style: italic;
+}
+
+.student-ad {
+  border: 2px dotted #6D92A0;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+.imprint {
+  font-size: 12px;
+}
+
+ul {
+  list-style-position: outside;
+}
