@@ -18,6 +18,11 @@ h2 {
   letter-spacing: .15em;
 }
 
+h3 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 a:hover {
   color: #6D92A0;
 }
@@ -60,10 +65,48 @@ figcaption {
   text-align: center;
 }
 
-.imprint {
-  font-size: 12px;
+ul {
+/*  list-style-position: outside;*/
+  list-style-type: none;
 }
 
-ul {
-  list-style-position: outside;
+.anchor {
+  scroll-margin-top: 70px;
+}
+
+ /* Navigation bar */
+.navigation {
+  overflow: hidden;
+  background-color: #457485;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 9999;
+  width: 960px;
+}
+
+.foto img {
+  border-radius: 20px;
+}
+
+
+/* Links inside the navbar */
+.navigation a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navigation a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
 }
